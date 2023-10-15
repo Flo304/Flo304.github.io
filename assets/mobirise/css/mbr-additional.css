@@ -105,7 +105,7 @@ body {
   background-color: #40b0bf !important;
 }
 .bg-info {
-  background-color: #47b5ed !important;
+  background-color: #9fdbf8 !important;
 }
 .bg-warning {
   background-color: #ffe161 !important;
@@ -159,9 +159,9 @@ body {
 }
 .btn-info,
 .btn-info:active {
-  background-color: #47b5ed !important;
-  border-color: #47b5ed !important;
-  color: #ffffff !important;
+  background-color: #9fdbf8 !important;
+  border-color: #9fdbf8 !important;
+  color: #0a638e !important;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
 }
 .btn-info:hover,
@@ -169,15 +169,15 @@ body {
 .btn-info.focus,
 .btn-info.active {
   color: #ffffff !important;
-  background-color: #148cca !important;
-  border-color: #148cca !important;
+  background-color: #4ebdf2 !important;
+  border-color: #4ebdf2 !important;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 .btn-info.disabled,
 .btn-info:disabled {
-  color: #ffffff !important;
-  background-color: #148cca !important;
-  border-color: #148cca !important;
+  color: #0a638e !important;
+  background-color: #4ebdf2 !important;
+  border-color: #4ebdf2 !important;
 }
 .btn-success,
 .btn-success:active {
@@ -334,23 +334,23 @@ body {
 .btn-info-outline,
 .btn-info-outline:active {
   background-color: transparent !important;
-  border-color: #47b5ed;
-  color: #47b5ed;
+  border-color: #9fdbf8;
+  color: #9fdbf8;
 }
 .btn-info-outline:hover,
 .btn-info-outline:focus,
 .btn-info-outline.focus,
 .btn-info-outline.active {
-  color: #148cca !important;
+  color: #4ebdf2 !important;
   background-color: transparent!important;
-  border-color: #148cca !important;
+  border-color: #4ebdf2 !important;
   box-shadow: none!important;
 }
 .btn-info-outline.disabled,
 .btn-info-outline:disabled {
-  color: #ffffff !important;
-  background-color: #47b5ed !important;
-  border-color: #47b5ed !important;
+  color: #0a638e !important;
+  background-color: #9fdbf8 !important;
+  border-color: #9fdbf8 !important;
 }
 .btn-success-outline,
 .btn-success-outline:active {
@@ -467,7 +467,7 @@ body {
   color: #40b0bf !important;
 }
 .text-info {
-  color: #47b5ed !important;
+  color: #9fdbf8 !important;
 }
 .text-warning {
   color: #ffe161 !important;
@@ -499,7 +499,7 @@ a.text-success.active {
 a.text-info:hover,
 a.text-info:focus,
 a.text-info.active {
-  color: #1283bc !important;
+  color: #40b7f1 !important;
 }
 a.text-warning:hover,
 a.text-warning:focus,
@@ -544,7 +544,7 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
   background-color: #70c770;
 }
 .alert-info {
-  background-color: #47b5ed;
+  background-color: #9fdbf8;
 }
 .alert-warning {
   background-color: #ffe161;
@@ -1443,6 +1443,11 @@ a {
   padding-bottom: 5rem;
   background-color: #ffffff;
 }
+.cid-tSI7fUPEHQ {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+}
 .cid-tSLlkovBKf {
   background-image: url("../../../assets/images/weaksignal4-2000x1414.jpg");
 }
@@ -1459,17 +1464,12 @@ a {
   top: 0;
 }
 .cid-tSLlkovBKf .mbr-section-title {
-  color: #9381b3;
+  color: #353535;
 }
 .cid-tSLlkovBKf .mbr-text,
 .cid-tSLlkovBKf .mbr-section-btn {
-  color: #9381b3;
+  color: #353535;
   text-align: left;
-}
-.cid-tSI7fUPEHQ {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #ffffff;
 }
 .cid-tSI89gFhgu {
   padding-top: 5rem;
