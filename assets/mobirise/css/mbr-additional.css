@@ -1353,29 +1353,6 @@ a {
 .cid-tSw1vIqXDw .mbr-description {
   color: #ffffff;
 }
-.cid-tSLlkovBKf {
-  background-image: url("../../../assets/images/weaksignal4-2000x1414.jpg");
-}
-.cid-tSLlkovBKf .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-tSLlkovBKf .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-.cid-tSLlkovBKf .mbr-section-title {
-  color: #8caff0;
-}
-.cid-tSLlkovBKf .mbr-text,
-.cid-tSLlkovBKf .mbr-section-btn {
-  color: #8caff0;
-  text-align: left;
-}
 .cid-tSI7ia9e8m {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -1465,6 +1442,29 @@ a {
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: #ffffff;
+}
+.cid-tSLlkovBKf {
+  background-image: url("../../../assets/images/weaksignal4-2000x1414.jpg");
+}
+.cid-tSLlkovBKf .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tSLlkovBKf .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-tSLlkovBKf .mbr-section-title {
+  color: #9381b3;
+}
+.cid-tSLlkovBKf .mbr-text,
+.cid-tSLlkovBKf .mbr-section-btn {
+  color: #9381b3;
+  text-align: left;
 }
 .cid-tSI7fUPEHQ {
   padding-top: 5rem;
