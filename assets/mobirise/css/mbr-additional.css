@@ -11850,15 +11850,15 @@ a {
   padding-bottom: 5rem;
   background-color: #ffffff;
 }
-.cid-tVpa6uVkXW {
+.cid-tVpo3H5HyE {
   padding-top: 6rem;
   padding-bottom: 6rem;
   background-color: #ffffff;
 }
-.cid-tVpa6uVkXW .mbr-fallback-image.disabled {
+.cid-tVpo3H5HyE .mbr-fallback-image.disabled {
   display: none;
 }
-.cid-tVpa6uVkXW .mbr-fallback-image {
+.cid-tVpo3H5HyE .mbr-fallback-image {
   display: block;
   background-size: cover;
   background-position: center center;
@@ -11867,44 +11867,13 @@ a {
   position: absolute;
   top: 0;
 }
-@media (max-width: 991px) {
-  .cid-tVpa6uVkXW .image-wrapper {
-    margin-bottom: 1rem;
-  }
-}
-.cid-tVpa6uVkXW .row {
-  flex-direction: row-reverse;
-}
-.cid-tVpa6uVkXW img {
+.cid-tVpo3H5HyE .video-wrapper iframe {
   width: 100%;
 }
-.cid-tVpa7H2TlL {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-color: #ffffff;
-}
-.cid-tVpa7H2TlL .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-tVpa7H2TlL .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-@media (max-width: 991px) {
-  .cid-tVpa7H2TlL .image-wrapper {
-    margin-bottom: 1rem;
-  }
-}
-.cid-tVpa7H2TlL .row {
-  flex-direction: row-reverse;
-}
-.cid-tVpa7H2TlL img {
-  width: 100%;
+.cid-tVpo3H5HyE .mbr-section-title,
+.cid-tVpo3H5HyE .mbr-section-subtitle,
+.cid-tVpo3H5HyE .mbr-text {
+  text-align: center;
 }
 .cid-tVpci3KhBB {
   padding-top: 5rem;
@@ -11915,4 +11884,129 @@ a {
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: #ffffff;
+}
+.cid-tVpndOHBDX {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+}
+@media (min-width: 992px) {
+  .cid-tVpndOHBDX .carousel {
+    min-height: 800px;
+  }
+  .cid-tVpndOHBDX .carousel img {
+    max-height: 800px;
+    object-fit: contain;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .cid-tVpndOHBDX .carousel {
+    min-height: 520px;
+  }
+  .cid-tVpndOHBDX .carousel img {
+    max-height: 520px;
+    object-fit: contain;
+  }
+}
+@media (max-width: 767px) {
+  .cid-tVpndOHBDX .carousel {
+    min-height: 440px;
+  }
+  .cid-tVpndOHBDX .carousel img {
+    max-height: 440px;
+    object-fit: contain;
+  }
+  .cid-tVpndOHBDX .container .carousel-control {
+    margin-bottom: 0;
+  }
+  .cid-tVpndOHBDX .content-slider-wrap {
+    width: 100% !important;
+  }
+}
+.cid-tVpndOHBDX .carousel,
+.cid-tVpndOHBDX .carousel-inner {
+  display: flex;
+  align-items: center;
+}
+.cid-tVpndOHBDX .item-wrapper {
+  width: 100%;
+}
+.cid-tVpndOHBDX .carousel-caption {
+  bottom: 40px;
+}
+.cid-tVpndOHBDX .carousel-control:hover {
+  background: #1b1b1b;
+  color: #fff;
+  opacity: 1;
+}
+.cid-tVpndOHBDX .mobi-mbri-arrow-next {
+  margin-left: 5px;
+}
+.cid-tVpndOHBDX .mobi-mbri-arrow-prev {
+  margin-right: 5px;
+}
+.cid-tVpndOHBDX .container .carousel-indicators {
+  margin-bottom: 3px;
+}
+.cid-tVpndOHBDX .carousel-control {
+  top: 50%;
+  width: 60px;
+  height: 60px;
+  margin-top: -1.5rem;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+.cid-tVpndOHBDX .carousel-control.carousel-control-prev {
+  left: 0;
+  margin-left: 2.5rem;
+}
+.cid-tVpndOHBDX .carousel-control.carousel-control-next {
+  right: 0;
+  margin-right: 2.5rem;
+}
+@media (max-width: 767px) {
+  .cid-tVpndOHBDX .carousel-control {
+    top: auto;
+    bottom: 1rem;
+  }
+}
+.cid-tVpndOHBDX .carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 1.5rem !important;
+}
+.cid-tVpndOHBDX .carousel-indicators li {
+  max-width: 15px;
+  height: 15px;
+  width: 15px;
+  max-height: 15px;
+  margin: 3px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+.cid-tVpndOHBDX .carousel-indicators li.active,
+.cid-tVpndOHBDX .carousel-indicators li:hover {
+  opacity: 0.9;
+}
+.cid-tVpndOHBDX .carousel-indicators li::after,
+.cid-tVpndOHBDX .carousel-indicators li::before {
+  content: none;
+}
+.cid-tVpndOHBDX .carousel-indicators.ie-fix {
+  left: 50%;
+  display: block;
+  width: 60%;
+  margin-left: -30%;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .cid-tVpndOHBDX .carousel-indicators {
+    display: none !important;
+  }
 }
