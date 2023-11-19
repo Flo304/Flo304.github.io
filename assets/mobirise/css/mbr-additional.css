@@ -11437,7 +11437,7 @@ a {
   }
 }
 .cid-tVp6BPNSSb {
-  background-image: url("../../../assets/images/360-f-187682200-e8y5sqxaqt1huffmxffgtfuyyk5sm32q.jpg");
+  background-image: url("../../../assets/images/firefly-a-realistic-perspective-view-of-block-of-organic-houses-with-facades-made-out-of-roots-and-p-2.jpg");
 }
 .cid-tVp6BPNSSb .mbr-fallback-image.disabled {
   display: none;
@@ -11452,12 +11452,89 @@ a {
   top: 0;
 }
 .cid-tVp6BPNSSb .mbr-section-title {
-  color: #94bdc3;
+  color: #ffffff;
 }
-.cid-tVp6XFx8Z7 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+.cid-tW6r4rx5FC {
   background-color: #ffffff;
+}
+.cid-tW6r4rx5FC .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tW6r4rx5FC .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-tW6r4rx5FC .row {
+  flex-direction: row-reverse;
+}
+@media (max-width: 991px) {
+  .cid-tW6r4rx5FC .image-wrapper {
+    margin-bottom: 2rem;
+  }
+}
+.cid-tW6r4rx5FC .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+@media (min-width: 992px) {
+  .cid-tW6r4rx5FC .text-wrapper {
+    padding: 0 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .cid-tW6r4rx5FC .text-wrapper {
+    margin-bottom: 2rem;
+  }
+}
+.cid-tW6qqAgKKr {
+  background-image: url("../../../assets/images/firefly-a-realistic-perspective-of-a-city-with-organic-buildings-made-out-of-roots-and-vegetation-78.jpg");
+}
+.cid-tW6qqAgKKr .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tW6qqAgKKr .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-tW6q3zqreh {
+  background-image: url("../../../assets/images/firefly-a-realistic-perspective-view-of-block-of-organic-houses-with-facades-made-out-of-roots-and-p-1.jpg");
+}
+.cid-tW6q3zqreh .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tW6q3zqreh .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-tW6qeLydwc {
+  background-image: url("../../../assets/images/firefly-a-realistic-perspective-view-of-a-whole-city-made-out-of-roots.-23967.jpg");
+}
+.cid-tW6qeLydwc .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tW6qeLydwc .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
 }
 .cid-sFCw1qGFAI {
   z-index: 1000;
