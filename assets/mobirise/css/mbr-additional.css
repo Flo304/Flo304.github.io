@@ -17263,13 +17263,153 @@ a {
     left: -1rem;
   }
 }
-.cid-tXoWfta6KX {
+.cid-tXWGd2ynCD {
+  background-image: url("../../../assets/images/maeta-matsvinn.jpg");
+}
+.cid-tXWGd2ynCD .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tXWGd2ynCD .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-tXWGd2ynCD .mbr-section-title {
+  color: #94bdc3;
+}
+.cid-tXWMTuNRXL {
   padding-top: 5rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+.cid-tXWGygGeXI {
+  padding-top: 0rem;
   padding-bottom: 5rem;
   background-color: #ffffff;
 }
-.cid-tXoWfta6KX .mbr-section-subtitle {
-  color: #94bdc3;
+@media (min-width: 992px) {
+  .cid-tXWGygGeXI .carousel {
+    min-height: 800px;
+  }
+  .cid-tXWGygGeXI .carousel img {
+    max-height: 800px;
+    object-fit: contain;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .cid-tXWGygGeXI .carousel {
+    min-height: 520px;
+  }
+  .cid-tXWGygGeXI .carousel img {
+    max-height: 520px;
+    object-fit: contain;
+  }
+}
+@media (max-width: 767px) {
+  .cid-tXWGygGeXI .carousel {
+    min-height: 440px;
+  }
+  .cid-tXWGygGeXI .carousel img {
+    max-height: 440px;
+    object-fit: contain;
+  }
+  .cid-tXWGygGeXI .container .carousel-control {
+    margin-bottom: 0;
+  }
+  .cid-tXWGygGeXI .content-slider-wrap {
+    width: 100% !important;
+  }
+}
+.cid-tXWGygGeXI .carousel,
+.cid-tXWGygGeXI .carousel-inner {
+  display: flex;
+  align-items: center;
+}
+.cid-tXWGygGeXI .item-wrapper {
+  width: 100%;
+}
+.cid-tXWGygGeXI .carousel-caption {
+  bottom: 40px;
+}
+.cid-tXWGygGeXI .carousel-control:hover {
+  background: #1b1b1b;
+  color: #fff;
+  opacity: 1;
+}
+.cid-tXWGygGeXI .mobi-mbri-arrow-next {
+  margin-left: 5px;
+}
+.cid-tXWGygGeXI .mobi-mbri-arrow-prev {
+  margin-right: 5px;
+}
+.cid-tXWGygGeXI .container .carousel-indicators {
+  margin-bottom: 3px;
+}
+.cid-tXWGygGeXI .carousel-control {
+  top: 50%;
+  width: 60px;
+  height: 60px;
+  margin-top: -1.5rem;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+.cid-tXWGygGeXI .carousel-control.carousel-control-prev {
+  left: 0;
+  margin-left: 2.5rem;
+}
+.cid-tXWGygGeXI .carousel-control.carousel-control-next {
+  right: 0;
+  margin-right: 2.5rem;
+}
+@media (max-width: 767px) {
+  .cid-tXWGygGeXI .carousel-control {
+    top: auto;
+    bottom: 1rem;
+  }
+}
+.cid-tXWGygGeXI .carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 1.5rem !important;
+}
+.cid-tXWGygGeXI .carousel-indicators li {
+  max-width: 15px;
+  height: 15px;
+  width: 15px;
+  max-height: 15px;
+  margin: 3px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+.cid-tXWGygGeXI .carousel-indicators li.active,
+.cid-tXWGygGeXI .carousel-indicators li:hover {
+  opacity: 0.9;
+}
+.cid-tXWGygGeXI .carousel-indicators li::after,
+.cid-tXWGygGeXI .carousel-indicators li::before {
+  content: none;
+}
+.cid-tXWGygGeXI .carousel-indicators.ie-fix {
+  left: 50%;
+  display: block;
+  width: 60%;
+  margin-left: -30%;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .cid-tXWGygGeXI .carousel-indicators {
+    display: none !important;
+  }
 }
 .cid-sFCw1qGFAI {
   z-index: 1000;
