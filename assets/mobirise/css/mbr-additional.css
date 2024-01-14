@@ -17426,7 +17426,7 @@ a {
   }
 }
 .cid-u1iaeRzk0R {
-  background-image: url("../../../assets/images/background7.jpg");
+  background-image: url("../../../assets/images/untitled-3.jpeg");
 }
 .cid-u1iaeRzk0R .mbr-fallback-image.disabled {
   display: none;
@@ -17439,6 +17439,52 @@ a {
   height: 100%;
   position: absolute;
   top: 0;
+}
+.cid-u1iaeRzk0R .mbr-section-title {
+  color: #353535;
+}
+.cid-u1is3jvwgd {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+}
+.cid-u1ixWhfBYM {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+.cid-u1ixWhfBYM .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-u1ixWhfBYM .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+@media (max-width: 991px) {
+  .cid-u1ixWhfBYM .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-u1ixWhfBYM .row {
+  flex-direction: row-reverse;
+}
+.cid-u1ixWhfBYM img {
+  width: 100%;
+}
+.cid-u1iy9SK9nJ {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+}
+.cid-u1isMW8gbm {
+  padding-top: 0rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
 }
 .cid-sFCw1qGFAI .navbar-dropdown {
   position: relative !important;
@@ -17784,7 +17830,7 @@ a {
   }
 }
 .cid-u1iatGhqA6 {
-  background-image: url("../../../assets/images/background7.jpg");
+  background-image: url("../../../assets/images/screenshot-2024-01-18.png");
 }
 .cid-u1iatGhqA6 .mbr-fallback-image.disabled {
   display: none;
@@ -17813,8 +17859,8 @@ a {
   color: #94bdc3;
 }
 .cid-u1iewNOnsl {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
   background-color: #ffffff;
 }
 .cid-u1iewNOnsl .mbr-fallback-image.disabled {
@@ -17852,8 +17898,8 @@ a {
   color: #94bdc3;
 }
 .cid-u1ickmmJRe {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
   background-color: #ffffff;
 }
 .cid-u1ickmmJRe .mbr-fallback-image.disabled {
@@ -17891,8 +17937,8 @@ a {
   color: #94bdc3;
 }
 .cid-u1iax81Dgr {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 0rem;
+  padding-bottom: 3rem;
   background-color: #ffffff;
 }
 .cid-u1iax81Dgr .mbr-section-subtitle {
@@ -17902,8 +17948,8 @@ a {
   color: #94bdc3;
 }
 .cid-u1iaIIicOY {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
   background-color: #ffffff;
 }
 .cid-u1iaIIicOY .mbr-fallback-image.disabled {
@@ -17929,35 +17975,85 @@ a {
 .cid-u1iaIIicOY .mbr-section-title {
   color: #94bdc3;
 }
+.cid-u1ipKG3gcB {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+.cid-u1ipKG3gcB .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-u1ipKG3gcB .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-u1ipKG3gcB .video-wrapper iframe {
+  width: 100%;
+}
+.cid-u1ipKG3gcB .mbr-section-title,
+.cid-u1ipKG3gcB .mbr-section-subtitle,
+.cid-u1ipKG3gcB .mbr-text {
+  text-align: center;
+}
+.cid-u1iqfe0q7n {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+.cid-u1iqfe0q7n .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-u1iqfe0q7n .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-u1iqfe0q7n .video-wrapper iframe {
+  width: 100%;
+}
+.cid-u1iqfe0q7n .mbr-section-title,
+.cid-u1iqfe0q7n .mbr-section-subtitle,
+.cid-u1iqfe0q7n .mbr-text {
+  text-align: center;
+}
 .cid-u1iaAYNaKW {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
   background-color: #ffffff;
 }
 @media (min-width: 992px) {
   .cid-u1iaAYNaKW .carousel {
-    min-height: 800px;
+    min-height: 700px;
   }
   .cid-u1iaAYNaKW .carousel img {
-    max-height: 800px;
+    max-height: 700px;
     object-fit: contain;
   }
 }
 @media (max-width: 991px) and (min-width: 768px) {
   .cid-u1iaAYNaKW .carousel {
-    min-height: 520px;
+    min-height: 455px;
   }
   .cid-u1iaAYNaKW .carousel img {
-    max-height: 520px;
+    max-height: 455px;
     object-fit: contain;
   }
 }
 @media (max-width: 767px) {
   .cid-u1iaAYNaKW .carousel {
-    min-height: 440px;
+    min-height: 385px;
   }
   .cid-u1iaAYNaKW .carousel img {
-    max-height: 440px;
+    max-height: 385px;
     object-fit: contain;
   }
   .cid-u1iaAYNaKW .container .carousel-control {
