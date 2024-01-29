@@ -18977,7 +18977,7 @@ a {
   }
 }
 .cid-u1DZtPwtNw {
-  background-image: url("../../../assets/images/jewelry-box-dxfdownloads.com-660x330.jpg");
+  background-image: url("../../../assets/images/img-1788.jpeg");
 }
 .cid-u1DZtPwtNw .mbr-fallback-image.disabled {
   display: none;
@@ -18992,17 +18992,163 @@ a {
   top: 0;
 }
 .cid-u1DZtPwtNw .mbr-section-title {
-  color: #94bdc3;
+  color: #ffffff;
 }
 .cid-u1EJLDpjzc {
   padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-bottom: 0rem;
   background-color: #ffffff;
+}
+.cid-u2MgICueBw {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+.cid-u2MgICueBw img,
+.cid-u2MgICueBw .item-img {
+  width: 100%;
+  height: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+.cid-u2MgICueBw .item:focus,
+.cid-u2MgICueBw span:focus {
+  outline: none;
+}
+.cid-u2MgICueBw .item {
+  cursor: pointer;
+  margin-bottom: 2rem;
+  position: relative;
+}
+.cid-u2MgICueBw .item-wrapper {
+  position: unset;
+  border-radius: 4px;
+  background: #ffffff;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+@media (min-width: 992px) {
+  .cid-u2MgICueBw .item-wrapper .item-content {
+    padding: 2rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-u2MgICueBw .item-wrapper .item-content {
+    padding: 1rem;
+  }
+}
+.cid-u2MgICueBw .mbr-section-btn {
+  margin-top: auto !important;
+}
+.cid-u2MgICueBw .mbr-section-title {
+  color: #232323;
+}
+.cid-u2MgICueBw .mbr-section-subtitle {
+  text-align: left;
+}
+.cid-u2MgICueBw .mbr-text,
+.cid-u2MgICueBw .mbr-section-btn {
+  text-align: left;
 }
 .cid-u1ERGbtwWf {
   padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-bottom: 0rem;
   background-color: #ffffff;
+}
+.cid-u2MkthgsPv {
+  padding-top: 0rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+.cid-u2MkthgsPv img,
+.cid-u2MkthgsPv .item-img {
+  width: 100%;
+  height: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+.cid-u2MkthgsPv .item:focus,
+.cid-u2MkthgsPv span:focus {
+  outline: none;
+}
+.cid-u2MkthgsPv .item {
+  cursor: pointer;
+  margin-bottom: 2rem;
+  position: relative;
+}
+.cid-u2MkthgsPv .item-wrapper {
+  position: unset;
+  border-radius: 4px;
+  background: #ffffff;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+@media (min-width: 992px) {
+  .cid-u2MkthgsPv .item-wrapper .item-content {
+    padding: 2rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-u2MkthgsPv .item-wrapper .item-content {
+    padding: 1rem;
+  }
+}
+.cid-u2MkthgsPv .mbr-section-btn {
+  margin-top: auto !important;
+}
+.cid-u2MkthgsPv .mbr-section-title {
+  color: #232323;
+}
+.cid-u2MkthgsPv .mbr-section-subtitle {
+  text-align: left;
+}
+.cid-u2MkUNYCzB {
+  padding-top: 0rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+.cid-u2MkUNYCzB img,
+.cid-u2MkUNYCzB .item-img {
+  width: 100%;
+  height: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+.cid-u2MkUNYCzB .item:focus,
+.cid-u2MkUNYCzB span:focus {
+  outline: none;
+}
+.cid-u2MkUNYCzB .item {
+  cursor: pointer;
+  margin-bottom: 2rem;
+  position: relative;
+}
+.cid-u2MkUNYCzB .item-wrapper {
+  position: unset;
+  border-radius: 4px;
+  background: #ffffff;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+@media (min-width: 992px) {
+  .cid-u2MkUNYCzB .item-wrapper .item-content {
+    padding: 2rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-u2MkUNYCzB .item-wrapper .item-content {
+    padding: 1rem;
+  }
+}
+.cid-u2MkUNYCzB .mbr-section-btn {
+  margin-top: auto !important;
+}
+.cid-u2MkUNYCzB .mbr-section-title {
+  color: #232323;
+  text-align: left;
 }
 .cid-sFCw1qGFAI .navbar-dropdown {
   position: relative !important;
