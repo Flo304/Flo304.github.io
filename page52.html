@@ -82,11 +82,119 @@
                 
                 
                 <p class="mbr-text mbr-fonts-style display-7"><strong>
-                    Installing kinect and processing in the goal of communicating with blender</strong><br>Install <a href="https://www.microsoft.com/en-us/download/details.aspx?id=40278" class="text-primary">kinect for Windows SDK</a> (I have the kinect 1)<br>Install last version of <a href="https://processing.org/download" class="text-primary">Processing</a><a href="https://processing.org/download" class="text-primary"><br></a>Install library OpenNI on processing<a href="https://processing.org/download" class="text-primary"><br></a>Install library oscP5 on processing<br>Run example code with OpenNI to check connection with kinect<br>Install blender add-on nodesOSC_240<br>Open blender<br><a href="https://www.youtube.com/watch?v=w_Nye09FyRQ" class="text-primary">Tutorial </a>for nodeOSC python communication&nbsp;<br>More <a href="https://github.com/maybites/blender.NodeOSC/wiki" class="text-primary">info </a>on nodeOSC&nbsp;<br>To be continued</p>
+                    Installing kinect and processing in the goal of communicating with blender</strong><br>Install <a href="https://www.microsoft.com/en-us/download/details.aspx?id=40278" class="text-primary">kinect for Windows SDK</a> (I have the kinect 1)<br>Install last version of <a href="https://processing.org/download" class="text-primary">Processing</a><a href="https://processing.org/download" class="text-primary"><br></a>Install library OpenNI on processing<a href="https://processing.org/download" class="text-primary"><br></a>Install library oscP5 on processing<br>Run example code with OpenNI to check connection with kinect<br>Install blender add-on nodesOSC_240<br>Open blender<br><a href="https://www.youtube.com/watch?v=w_Nye09FyRQ" class="text-primary">Tutorial </a>for nodeOSC python communication&nbsp;<br>More <a href="https://github.com/maybites/blender.NodeOSC/wiki" class="text-primary">info </a>on nodeOSC&nbsp;<br>To be continued<br><br><br><strong>Kinect connected to processing communication with python blender</strong><br>Install library OpenNI on processing
+<br>Install library oscP5 on processing<br><br>Open Blender,&nbsp;<br>Open python console<br><strong>Run code</strong><br>import bpy
+<br>from pythonosc.dispatcher import Dispatcher
+<br>from pythonosc.osc_server import ThreadingOSCUDPServer
+<br>from threading import Thread
+<br>import socke<em>t
+</em><br>
+<br># Function to handle incoming OSC messages
+<br>def osc_handler(address, *args):
+<br>    # Parse and use the incoming data
+<br>    x, y, z = args
+<br>    print(f"Received OSC message: X={x}, Y={y}, Z={z}")
+<br>    # Update Blender objects or perform other actions
+<br>    # For example, move an empty object based on OSC data
+<br>    bpy.data.objects['Cube'].location = (x, y, z)
+<br>
+<br># Get an available port dynamically
+<br>def get_available_port():
+<br>    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+<br>    sock.bind(('localhost', 0))
+<br>    _, port = sock.getsockname()
+<br>    sock.close()
+<br>    return port
+<br>
+<br># Set up OSC server with a dynamic port
+<br>osc_port = get_available_port()
+<br>dispatcher = Dispatcher()
+<br>dispatcher.map("/kinect/position", osc_handler)
+<br>server = ThreadingOSCUDPServer(('127.0.0.1', osc_port), dispatcher)
+<br>
+<br># Start OSC server in a separate thread
+<br>server_thread = Thread(target=server.serve_forever)
+<br>server_thread.start()
+<br>
+<br>print(f"OSC server is running on port {osc_port}.")<br><br><strong>¬I didn't chose a specific port because my computer was being moody and didn't want to connect to any port. This is the way I managed to connect. If you want to chose any other port plz do.¬<br></strong><br><strong>You can open processing and run this code, replace port by port selected in python blender</strong><br><br>import SimpleOpenNI.*;
+<br>import oscP5.*;
+<br>import netP5.*;
+<br>
+<br>SimpleOpenNI context;
+<br>OscP5 oscP5;
+<br>NetAddress blenderAddress;
+<br>
+<br>// Choose a port number that is not in use
+<br>int oscPort = 61912;  // Change to an available port
+<br>
+<br>void setup() {
+<br>  size(640, 480, P2D);
+<br>  context = new SimpleOpenNI(this);
+<br>  if (context.isInit() == false) {
+<br>    println("Can't init SimpleOpenNI, maybe the camera is not connected!"); 
+<br>    exit();
+<br>    return;
+<br>  }
+<br>
+<br>  // mirror is by default enabled
+<br>  context.setMirror(true);
+<br>
+<br>  // enable depthMap generation 
+<br>  context.enableDepth();
+<br>
+<br>  // enable ir generation
+<br>  context.enableRGB();
+<br>
+<br>  // Set up OSC with a chosen port
+<br>  oscP5 = new OscP5(this, oscPort);
+<br>  blenderAddress = new NetAddress("127.0.0.1", oscPort);
+<br>}
+<br>
+<br>void draw() {
+<br>  // update the cam
+<br>  context.update();
+<br>
+<br>  background(200, 0, 0);
+<br>
+<br>  // draw depthImageMap
+<br>  image(context.depthImage(), 0, 0);
+<br>
+<br>  // draw irImageMap
+<br>  image(context.rgbImage(), context.depthWidth() + 10, 0);
+<br>
+<br>  // Get depth data from a specific pixel (e.g., center of the image)
+<br>  int depthX = context.depthWidth() / 2;
+<br>  int depthY = context.depthHeight() / 2;
+<br>
+<br>  // Get depth map values
+<br>  int[] depthValues = context.depthMap();
+<br>  int depthIndex = depthX + depthY * context.depthWidth();
+<br>  int depth = depthValues[depthIndex];
+<br>
+<br>  // Convert depth coordinates to real-world XYZ
+<br>  PVector depthPoint = new PVector(depthX, depthY, depth);
+<br>  PVector realWorldCoordinates = new PVector();
+<br>  context.convertProjectiveToRealWorld(depthPoint, realWorldCoordinates);
+<br>
+<br>  float x = realWorldCoordinates.x;
+<br>  float y = realWorldCoordinates.y;
+<br>  float z = realWorldCoordinates.z;
+<br>
+<br>  // Send OSC message to Blender
+<br>  OscMessage msg = new OscMessage("/kinect/position");
+<br>  msg.add(x);
+<br>  msg.add(y);
+<br>  msg.add(z);
+<br>  oscP5.send(msg, blenderAddress);
+<br>}
+<br><br>
+<br>
+<br>
+<br></p>
             </div>
         </div>
     </div>
-</section><section class="display-7" style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative;height: 4rem;"><a href="https://mobiri.se/3095965" style="flex: 1 1;height: 4rem;position: absolute;width: 100%;z-index: 1;"><img alt="" style="height: 4rem;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a><p style="margin: 0;text-align: center;" class="display-7">&#8204;</p><a style="z-index:1" href="https://mobirise.com/builder/ai-website-generator.html">AI Website Generator</a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/parallax/jarallax.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
+</section><section class="display-7" style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative;height: 4rem;"><a href="https://mobiri.se/3095965" style="flex: 1 1;height: 4rem;position: absolute;width: 100%;z-index: 1;"><img alt="" style="height: 4rem;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a><p style="margin: 0;text-align: center;" class="display-7">&#8204;</p><a style="z-index:1" href="https://mobirise.com/drag-drop-website-builder.html">Drag & Drop Website Builder</a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/parallax/jarallax.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
   
   
 </body>
