@@ -1029,7 +1029,7 @@ a {
   }
 }
 .cid-tSXVkv496G {
-  background-image: url("../../../assets/images/5f38326f-89b9-4421-8bc0-d50388336c1b-1600x900.jpg");
+  background-image: url("../../../assets/images/8ebef97f-b0a1-4861-8757-0f0c0f9926f9.jpg");
 }
 .cid-tSXVkv496G .mbr-fallback-image.disabled {
   display: none;
@@ -1044,11 +1044,11 @@ a {
   top: 0;
 }
 .cid-tSXVkv496G .mbr-section-title {
-  color: #94bdc3;
+  color: #ffffff;
 }
 .cid-tSXVkv496G .mbr-text,
 .cid-tSXVkv496G .mbr-section-btn {
-  color: #94bdc3;
+  color: #ffffff;
 }
 .cid-tSY0Dhl2CV {
   padding-top: 6rem;
@@ -36353,7 +36353,7 @@ a {
   }
 }
 .cid-uaLaV0IBpH {
-  background-image: url("../../../assets/images/background7.jpg");
+  background-image: url("../../../assets/images/mdef-circle-1-1280x960.jpg");
 }
 .cid-uaLaV0IBpH .mbr-fallback-image.disabled {
   display: none;
@@ -36366,6 +36366,71 @@ a {
   height: 100%;
   position: absolute;
   top: 0;
+}
+.cid-uaLaV0IBpH .mbr-section-title {
+  color: #353535;
+}
+.cid-ufZ77aT0vl {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+}
+.cid-ufZ7aFghSz {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+.cid-ufZ7aFghSz img,
+.cid-ufZ7aFghSz .item-img {
+  width: 100%;
+  height: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+.cid-ufZ7aFghSz .item:focus,
+.cid-ufZ7aFghSz span:focus {
+  outline: none;
+}
+.cid-ufZ7aFghSz .item {
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+.cid-ufZ7aFghSz .item-wrapper {
+  position: relative;
+  border-radius: 4px;
+  background: #ffffff;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+@media (min-width: 992px) {
+  .cid-ufZ7aFghSz .item-wrapper .item-content {
+    padding: 2rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-ufZ7aFghSz .item-wrapper .item-content {
+    padding: 1rem;
+  }
+}
+.cid-ufZ7aFghSz .mbr-section-btn {
+  margin-top: auto !important;
+}
+.cid-ufZ7aFghSz .mbr-section-title {
+  color: #232323;
+}
+.cid-ufZ7aFghSz .mbr-text,
+.cid-ufZ7aFghSz .mbr-section-btn {
+  text-align: left;
+}
+.cid-ufZ7aFghSz .item-title {
+  text-align: left;
+}
+.cid-ufZ7aFghSz .item-subtitle {
+  text-align: center;
+}
+.cid-ufZ7aFghSz .mbr-section-subtitle {
+  text-align: left;
 }
 .cid-sFCw1qGFAI .navbar-dropdown {
   position: relative !important;
